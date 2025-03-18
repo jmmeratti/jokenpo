@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: #000;
+}
+
+h1{
+    color: whitesmoke
+}
+
+button{
+    width: 8%;
+    border-radius: 50%
+    
+    
+}
+
+#reset-button{
+    width: 10vh;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 3vh;    
+    
+}
+
+#movComputer, #scoreDisplay, #resultado{
+    font-family: monospace;
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5vh;
+}
+
+
+button img{
+    max-width: 50vh;
+    max-height: 5vh;
+}
+
+.rock, .paper, .scissors{
+    background-color: black;
+    border: solid white;
+    padding: 2vh;
+    margin: 3vh;
+    width: 10vh;
+
+}
